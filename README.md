@@ -1,4 +1,4 @@
-下記のような dtrace の関数トレース出力を、illumos のソースブラウザへのリンクを埋め込んだ html に変換する。
+dtrace の関数トレース出力を、illumos のソースブラウザへのリンクを埋め込んだ html に変換する。
 
 >  3  -> zfs_read                              
 >  3    -> rrw_enter                           
@@ -11,10 +11,6 @@
 >  3        <- kmem_cache_alloc                
 
 
-<style type="text/css">
-td {
-	width: 10%;
-}</style>
 <table align="left" border="0" cellpadding="1" cellspacing="1" width="800">
 	<tbody>
 		<tr>
